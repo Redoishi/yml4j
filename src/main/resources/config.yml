@@ -1,0 +1,16 @@
+### config ###
+
+### version ne pas modifier ###
+version: 2.0
+
+### seting ###
+
+tt1:
+    - 1
+    - 2
+    - 3
+
+test:
+    test1: "1"
+    test2: "2"
+
