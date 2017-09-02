@@ -102,8 +102,20 @@ public class YmlFile {
         return (List) get(path);
     }
 
+    public List<String> getStringList(String path) {
+        return (List<String>) get(path);
+    }
+
+    public List<Integer> getIntegerList(String path) {
+        return (List<Integer>) get(path);
+    }
+
+    public List<Double> getDoubleList(String path) {
+        return (List<Double>) get(path);
+    }
+
     public Map<String, ?> getMap(String path){
-        return (Map) get(path);
+        return (Map<String, ?>) get(path);
     }
 
 
